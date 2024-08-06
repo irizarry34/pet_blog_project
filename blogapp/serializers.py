@@ -8,10 +8,11 @@ class AuthorSerializer(serializers.ModelSerializer):
 
 class PostSerializer(serializers.ModelSerializer):
     author = AuthorSerializer()
+    image = serializers.ImageField(required=False)  # Incluir el campo de imagen en el serializador
 
     class Meta:
         model = Post
-        fields = ['id', 'title', 'content', 'author', 'created_at']
+        fields = ['id', 'title', 'content', 'author', 'created_at', 'image']
 
 class CommentSerializer(serializers.ModelSerializer):
     class Meta:
