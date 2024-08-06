@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'django_apprunner_db',
         'USER': 'postgres',
-        'PASSWORD': '',
+        'PASSWORD': 'Grecia4334!',
         'HOST': 'django-apprunner-db.c9omc4o62mqd.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
