@@ -3,6 +3,8 @@
 *.pyo
 *.pyd
 __pycache__/
+
+# Database
 db.sqlite3
 
 # Environment variable file
